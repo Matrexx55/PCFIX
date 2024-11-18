@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>კომპიუტერული სერვისები</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Main Background -->
+    <div class="main-background">
+        <h1>ჩვენ გთავაზობთ 100% ტექნიკურ დახმარებას ადგილზე მისვლით</h1>
+    </div>
+
+    <!-- Services Section -->
+    <div class="services">
+        <div class="service-item">
+            <img src="C:/Users/100923/Desktop/PCFIX/images/windows.avif" alt="Windows-ის გადაყენება">
+            <h3>ვინდოუსის გადაყენება</h3>
+        </div>
+        <div class="service-item">
+            <img src="C:/Users/100923/Desktop/PCFIX/images/PCservice.png" alt="სერვისი">
+            <h3>ტექნიკური დახმარება</h3>
+        </div>
+        <div class="service-item">
+            <img src="C:/Users/100923/Desktop/PCFIX/images/PCbuilding.png" alt="კომპიუტერის აწყობა">
+            <h3>კომპიუტერის აწყობა</h3>
+        </div>
+        <div class="service-item">
+            <img src="C:/Users/100923/Desktop/PCFIX/images/PCparts.png" alt="კომპიუტერის ნაწილები">
+            <h3>კომპიუტერის ნაწილები</h3>
+        </div>
+    </div>
+
+    <!-- Chat Popup (Chatbot) -->
+    <button class="chat-button" onclick="openChat()">ჩატის გახსნა</button>
+
+    <div id="chatPopup" class="chat-popup">
+        <div class="chat-container">
+            <h3>ჩატი</h3>
+            <label for="question">რით შეგვიძლია დახმარება?</label>
+            <select id="question">
+                <option value="windows">ვინდოუსის გადაყენება</option>
+                <option value="tech">ტექნიკური დახმარება</option>
+                <option value="build">კომპიუტერის აწყობა</option>
+                <option value="parts">კომპიუტერის ნაწილები</option>
+            </select>
+            <textarea id="user-message" placeholder="თქვენი შეკითხვა"></textarea>
+            <input type="text" id="phone-number" placeholder="ტელეფონის ნომერი">
+            <input type="text" id="address" placeholder="მისამართი">
+            <button onclick="submitChat()">გაგზავნე</button>
+            <button onclick="closeChat()">დახურვა</button>
+        </div>
+    </div>
+
+    <!-- Custom JavaScript -->
+    <script src="chatbot.js"></script>
+    <script src="//code.tidio.co/1dobj43jcpwya5ezowphkapc76pj7wxh.js" async></script>
+    <script src="//code.tidio.co/1dobj43jcpwya5ezowphkapc76pj7wxh.js" async></script>
+</body>
+</html>

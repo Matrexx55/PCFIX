@@ -1,0 +1,115 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Main Background */
+.main-background {
+    background-image: url('C:/Users/100923/Desktop/PCFIX/images/Back.png');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(221, 221, 221);
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/* Services Section */
+.services {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.service-item {
+    text-align: center;
+    max-width: 200px;
+}
+
+.service-item img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 18px;
+    color: #333;
+}
+
+/* Chat Button */
+.chat-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.chat-button:hover {
+    background-color: #0056b3;
+}
+
+/* Chat Popup */
+.chat-popup {
+    display: none;
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    width: 300px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    padding: 20px;
+}
+
+.chat-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-container input,
+.chat-container textarea,
+.chat-container select {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.chat-container button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.chat-container button:hover {
+    background-color: #0056b3;
+}
