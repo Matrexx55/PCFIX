@@ -11,7 +11,7 @@ body {
 
 /* Main Background */
 .main-background {
-    background-image: url('C:/Users/100923/Desktop/PCFIX/images/Back.png');
+    background-image: url('/images/Back.png');
     background-size: cover;
     background-position: center;
     height: 600px;
