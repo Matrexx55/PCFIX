@@ -1,62 +1,75 @@
 <!DOCTYPE html>
 <html lang="ka">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>კომპიუტერული სერვისები</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>კომპიუტერული დახმარება</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.tidio.co/your_unique_code.js" async></script> <!-- Tidio ჩატის ინტეგრაცია -->
 </head>
 <body>
-
-    <!-- Main Background -->
-    <div class="main-background">
-        <h1>ჩვენ გთავაზობთ 100% ტექნიკურ დახმარებას ადგილზე მისვლით</h1>
+  <header>
+    <div class="container">
+      <h1>კომპიუტერული დახმარება და მომსახურება</h1>
+      <nav>
+        <ul>
+          <li><a href="#services">მომსახურება</a></li>
+          <li><a href="#about">ჩვენ შესახებ</a></li>
+          <li><a href="#contact">კონტაქტი</a></li>
+        </ul>
+      </nav>
     </div>
+  </header>
 
-    <!-- Services Section -->
-    <div class="services">
-        <div class="service-item">
-            <img src="PCFIX/windows.avif" alt="Windows-ის გადაყენება">
-            <h3>ვინდოუსის გადაყენება</h3>
-        </div>
-        <div class="service-item">
-            <img src="https://raw.githubusercontent.com/matrexx55/PCFIX/images/PCservice.png" alt="სერვისი">
-            <h3>ტექნიკური დახმარება</h3>
-        </div>
-        <div class="service-item">
-            <img src="https://raw.githubusercontent.com/matrexx55/PCFIX/images/PCbuilding.png" alt="კომპიუტერის აწყობა">
-            <h3>კომპიუტერის აწყობა</h3>
-        </div>
-        <div class="service-item">
-            <img src="https://raw.githubusercontent.com/matrexx55/PCFIX/images/PCparts.png" alt="კომპიუტერის ნაწილები">
-            <h3>კომპიუტერის ნაწილები</h3>
-        </div>
+  <section id="hero">
+    <div class="hero-content">
+      <h2>ექსპერტი დახმარება თქვენი კომპიუტერისთვის</h2>
+      <p>ჩვენ გთავაზობთ ადგილზე კომპიუტერულ დახმარებას, ოპერაციული სისტემის განახლებებს და კომპიუტერული ნაწილების გაყიდვას. დაგვიკავშირდით სწრაფი დახმარებისთვის.</p>
     </div>
+  </section>
 
-    <!-- Chat Popup (Chatbot) -->
-    <button class="chat-button" onclick="openChat()">ჩატის გახსნა</button>
-
-    <div id="chatPopup" class="chat-popup">
-        <div class="chat-container">
-            <h3>ჩატი</h3>
-            <label for="question">რით შეგვიძლია დახმარება?</label>
-            <select id="question">
-                <option value="windows">ვინდოუსის გადაყენება</option>
-                <option value="tech">ტექნიკური დახმარება</option>
-                <option value="build">კომპიუტერის აწყობა</option>
-                <option value="parts">კომპიუტერის ნაწილები</option>
-            </select>
-            <textarea id="user-message" placeholder="თქვენი შეკითხვა"></textarea>
-            <input type="text" id="phone-number" placeholder="ტელეფონის ნომერი">
-            <input type="text" id="address" placeholder="მისამართი">
-            <button onclick="submitChat()">გაგზავნე</button>
-            <button onclick="closeChat()">დახურვა</button>
-        </div>
+  <section id="services">
+    <div class="container">
+      <h2>ჩვენი მომსახურება</h2>
+      <div class="service-item">
+        <h3>Windows-ის გადაყენება</h3>
+        <p>სწრაფი და ეფექტური Windows-ის გადაყენება თქვენს კომპიუტერზე, განახლებებითა და ოპტიმიზაციით.</p>
+      </div>
+      <div class="service-item">
+        <h3>ტექნიკური მხარდაჭერა</h3>
+        <p>ჩვენ გთავაზობთ დისტანციურ ან ადგილზე ტექნიკურ მხარდაჭერას ნებისმიერი კომპიუტერული პრობლემისათვის.</p>
+      </div>
+      <div class="service-item">
+        <h3>კომპიუტერული ნაწილების გაყიდვა</h3>
+        <p>გაყიდვაში გვაქვს მაღალი ხარისხის კომპიუტერული ნაწილები, მიწოდების სერვისით. ეწვიეთ ჩვენს მაღაზიას უფრო დეტალებისთვის.</p>
+      </div>
     </div>
+  </section>
 
-    <!-- Custom JavaScript -->
-    <script src="chatbot.js"></script>
-    <script src="//code.tidio.co/1dobj43jcpwya5ezowphkapc76pj7wxh.js" async></script>
-    <script src="//code.tidio.co/1dobj43jcpwya5ezowphkapc76pj7wxh.js" async></script>
+  <section id="about">
+    <div class="container">
+      <h2>ჩვენ შესახებ</h2>
+      <p>ჩვენ ვართ კომპიუტერული ტექნოლოგიების სფეროში გამოცდილების მქონე პროფესიონალთა გუნდი. გთავაზობთ კომპიუტერის პრობლემების გამართვას, ნაწილების გაყიდვასა და პროგრამული უზრუნველყოფის განახლებას. დაგვიკავშირდით სწრაფი და საიმედო დახმარებისთვის.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>კონტაქტი</h2>
+      <p>მზად ხართ ჩვენი დახმარებისათვის? დაგვიკავშირდით, და ჩვენ gladly დაგეხმარებით თქვენს ყველა კომპიუტერულ საჭიროებაზე.</p>
+      <form>
+        <input type="text" placeholder="Вашი სახელი" required>
+        <input type="email" placeholder="თქვენი ელ. ფოსტა" required>
+        <textarea placeholder="თქვენი შეტყობინება" required></textarea>
+        <button type="submit">შეაგზავნეთ შეტყობინება</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 კომპიუტერული დახმარების სერვისები. ყველა უფლება დაცულია.</p>
+    </div>
+  </footer>
 </body>
 </html>
